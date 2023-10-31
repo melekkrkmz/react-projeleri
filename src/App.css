@@ -1,0 +1,53 @@
+
+.navbar-containar{
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+}
+.modal-containar{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(84, 76, 76);
+  opacity: 0.5;
+  display: none;
+  justify-content: center;
+  align-items: center;
+
+}
+.modal-containar.open{
+  display: flex;
+}
+.form-containar{
+  width: 400px;
+  height: 600px;
+  border: 1px solid black;
+  padding: 50px;
+  border-radius: 10px;
+ 
+}
+#form-containar{
+  background: white;
+}
+.ikon-containar{
+  position: absolute;
+  right: 0;
+}
+.ikon-containar i{
+  margin-right: 15px;
+  cursor: pointer;
+}
+.tr-containar{
+  position: relative;
+  
+}
+.form{
+  display: flex;
+  flex-direction: column;
+ 
+
+}
+.form input,form button{
+  margin: 10px;
+}
